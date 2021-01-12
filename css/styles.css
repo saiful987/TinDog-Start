@@ -1,0 +1,179 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Montserrat-bold', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.section-heading {
+   font-size: 3rem;
+   line-height: 1.5;
+
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+/* This one will overide the previous one which was ".container-fluid 7% 15%" only for the title section but everything else is 7% 15%. */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title image */
+/* change it to position: absolute so it stays inplace and also its automately z-index=0 and 1 is greater then 0 so the features section will be ontop of the image*/
+/* "right: 30%" - means that the image is 30% from the right so it moves to the right from the text*/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+/* Used the z-index 1 to move the background-color: white color forward and keep it position: relative so it can move */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Text-align to center all the text and header. Also padding clean up the sentences  */
+.feature-box {
+  padding: 5%;
+}
+
+/* changing the color of the icon */
+.orange-icon {
+  color: #ef8172;
+  margin-bottom: 1.2rem;
+}
+
+.orange-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+/* Testimonial image */
+.Testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+/* Press section  */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* Press images logo  */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+/* padding 3% = top & bottom and 2% = right & left */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Social Icons */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.social-icon:hover {
+    color:#ff4c68;
+}
+
+/* media query to make the website responsive */
+
+@media (max-width: 1028px) {
+   #title{
+     text-align: center;
+   }
+    .title-image {
+     width: 60%;
+     position: static;
+     transform: rotate(0);
+
+   }
+}
