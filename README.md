@@ -2,7 +2,7 @@ TinDog
 
 Description:
 
-On this project, I used HTML, CSS, and external framework Bootstrap, to make a desktop, laptop, iPad, and mobile responsive website. This is a tinder for dogs. All the images are provided below of what the website looks like in different types of screen sizes using the inspector tool.
+On this project, I used HTML, CSS, and external framework Bootstrap, to make a desktop, laptop, iPad, and mobile responsive website. This is a tinder for dogs. All the images are provided below of what the website looks like in different types of screen sizes using the inspector tool. Also, internal CSS was used to make the website responsive, which was done using media query. 
 
 Links:
 
